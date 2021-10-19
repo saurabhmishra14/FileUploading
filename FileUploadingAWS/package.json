@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/multer-s3": "^2.7.10",
+    "aws-sdk": "^2.1010.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0",
+    "path": "^0.12.7",
+    "ts-node": "^10.3.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  },
+  "name": "fileuploading",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
